@@ -11,7 +11,7 @@ To set up the project for development, follow these steps:
 3. Set up the MongoDB database:
    - Install MongoDB if you haven't already: [MongoDB Installation Guide](https://docs.mongodb.com/manual/installation/)
    - Create a new MongoDB database or use an existing one.
-   - Update the MongoDB connection URL in `config.js` or `.env` file to point to your MongoDB database.
+   - Update the MongoDB connection URL in `db.js` file to point to your MongoDB database.
 4. Start the development server: `npm run dev`
    - This command starts the server using Nodemon, which automatically restarts the server on code changes. It's useful during development.
 5. The API server will be running on `http://localhost:3000`.
