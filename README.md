@@ -1,23 +1,3 @@
-# Furation-Tech-Solutions 
-   Steps to Setup
-   
-   
-   
-1.Install dependencies
-
-
-  npm install
-  
-  
-2.Run Server
-
-
-  npm run dev
-  
-  
-You can browse the apis at http://localhost:3000/api/items
-
-
 # Express.js and MongoDB RESTful API
 
 This project is a simple RESTful API built with Express.js and MongoDB. It allows performing CRUD operations on a collection in a MongoDB database.
@@ -26,7 +6,7 @@ This project is a simple RESTful API built with Express.js and MongoDB. It allow
 
 To set up the project for development, follow these steps:
 
-1. Clone the repository: `git clone <repository-url>`
+1. Clone the repository: `git clone https://github.com/ravindrareddy12/Furation-Tech-Solutions`
 2. Install the dependencies: `npm install`
 3. Set up the MongoDB database:
    - Install MongoDB if you haven't already: [MongoDB Installation Guide](https://docs.mongodb.com/manual/installation/)
@@ -67,21 +47,16 @@ The API supports pagination for retrieving items. You can use the `page` and `li
 To deploy the API to a production environment, follow these steps:
 
 1. Set up a production-ready MongoDB database or use an existing one.
-2. Update the MongoDB connection URL in `config.js` or `.env` file to point to your production MongoDB database.
-3. Build the application: `npm run build`
-   - This command compiles the TypeScript code to JavaScript and generates the build output in the `dist` directory.
-4. Start the production server: `npm start`
-   - This command starts the server using the compiled JavaScript files in the `dist` directory.
-5. Ensure the API server is accessible on the appropriate domain or IP address.
+2. Update the MongoDB connection URL in `db.js` file to point to your production MongoDB database.
+3. Build the application: `npm install`
+  
+4. Start the production server: `npm run dev`
+   - This command starts the server using the compiled JavaScript files in the index.js directory.
+
 6. Optionally, configure a process manager (e.g., PM2) to manage the API process and keep it running continuously.
 
-Make sure to secure your production environment by properly configuring authentication/authorization and any necessary security measures.
 
-## Testing (Bonus)
 
-Unit tests for the API endpoints can be written using a testing framework like Jest. These tests ensure the correct behavior of the endpoints and help catch any regressions during development.
-
-To run the tests, use the command: `npm test`
 
 ## Contributing
 
