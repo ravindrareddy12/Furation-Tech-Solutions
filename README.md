@@ -13,3 +13,6 @@
 
 
   npm run dev
+  
+  
+You can browse the apis at http://localhost:3000/api/items
