@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // Connect to the MongoDB database
-mongoose.connect('mongodb://127.0.0.1:27017/crudApi');
+mongoose.connect('mongodb+srv://reddy:1234@cluster0.gdf3qiw.mongodb.net/REPL?retryWrites=true&w=majority');
 
 const db = mongoose.connection;
 
